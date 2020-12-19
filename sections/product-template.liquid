@@ -115,6 +115,34 @@
 
         <h1 class="product-single__title">{{ product.title }}</h1>
 
+          {% for tag in product.tags %}
+            {% if tag contains 'custom-product' %}
+              {% assign customProduct = true%}
+            {% endif %}
+          {% endfor %}
+
+          {% if customProduct %}
+          <div class="custom-product">
+            <div class="product__price">
+              {% if product.metafields.custom_fields["custom_product_price"] != blank %}
+                <div class="custom-field custom-field__custom-product-price custom-field__type--number">
+                  <div class="custom-field--value">
+                    {{ product.metafields.custom_fields["custom_product_price"] | money }}+
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+            <div class="product-single__description rte">
+              {{ product.description }}!!
+            </div>
+            <form>
+              <input type="text" placeholder="What do you need?"/>
+              <input type="text" placeholder="How soon would you like to wear this item?"/>
+            </form>
+          </div>
+          
+          {% else %}
+          
           <div class="product__price">
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
@@ -216,6 +244,10 @@
               </div>
             </div>
           {% endform %}
+          <div class="product-single__description rte">
+            {{ product.description }}
+          </div>
+          {% endif %}
         </div>
 
         {%- comment -%}
@@ -235,10 +267,6 @@
           role="alert"
           aria-hidden="true"
         >{{ 'products.product.loader_label' | t }}</p>
-
-        <div class="product-single__description rte">
-          {{ product.description }}
-        </div>
 
         {% if section.settings.show_share_buttons %}
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}

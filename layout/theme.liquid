@@ -42,6 +42,7 @@
   {% include 'social-meta-tags' %}
 
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
 
   <script>
     var theme = {
@@ -109,7 +110,8 @@
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
-  {{ content_for_header }}  {{ shop.metafields.fontify.stylesheets }}
+  {{ content_for_header }} 
+ {{ shop.metafields.fontify.stylesheets }}
 </head>
 
 <body class="template-{{ request.page_type | handle }}">
