@@ -1,0 +1,783 @@
+{
+  "current": {
+    "color_text": "#3d4246",
+    "color_body_text": "#3d4246",
+    "color_sale_text": "#282727",
+    "color_button": "#c1c1c1",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#4d5358",
+    "color_text_field_text": "#3d4246",
+    "color_text_field_border": "#949494",
+    "color_text_field": "#ffffff",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#282727",
+    "image_overlay_opacity": 61,
+    "color_borders": "#e8e9eb",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "shadows_into_light_n4",
+    "type_header_base_size": 36,
+    "type_base_font": "shadows_into_light_n4",
+    "type_base_size": 20,
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/the10jewelry\/",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/THE10_FINAL_WORDS_97563bbd-cff6-420e-abcc-a2658e70ce02.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "rgba(0,0,0,0)",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#949494",
+    "checkout_button_color": "#949494",
+    "checkout_error_color": "#2915c2",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/the10logo.jpg",
+          "logo_max_width": 90,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "handmade in los angeles",
+          "color_bg": "#282727",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/THE10_FINAL_WORDS_97563bbd-cff6-420e-abcc-a2658e70ce02.jpg",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "adapt",
+          "text_size": "large",
+          "title": "",
+          "text": "",
+          "button_label": ""
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": ""
+            }
+          },
+          "slideshow-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "slideshow-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "featured-collections": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "title": "Featured collection",
+          "collection": "frontpage",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "quick links",
+              "menu": "footer"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "discounts & special offers"
+            }
+          }
+        },
+        "block_order": [
+          "link_list",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#c1c1c1",
+          "color_footer_text": "#ffffff",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "1600723224546": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_2322_11c501c6-f23b-4cb9-967b-a52de3246c40.jpg",
+          "layout": "right",
+          "title": "handmade in los angeles",
+          "text": "",
+          "button_label": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1606194702b9447d3c": {
+        "type": "collection-list",
+        "blocks": {
+          "1606194702b9447d3c-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "earring-collection"
+            }
+          },
+          "1606194702b9447d3c-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bracelet"
+            }
+          },
+          "1606194702b9447d3c-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "necklace-collection"
+            }
+          },
+          "517429ec-86a9-41a5-b71d-6453c1da20a0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "pendants"
+            }
+          },
+          "88fe7301-234a-4d28-92b8-400a50ed2d77": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "rings"
+            }
+          },
+          "a07cc694-2667-4297-920e-374b8739ea66": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "diamonds"
+            }
+          },
+          "09adb3e5-f65c-4e51-8a5b-b25bc8967102": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "custom"
+            }
+          },
+          "8f68bcdd-3d41-401d-bd15-eafe60209dd7": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "press"
+            }
+          }
+        },
+        "block_order": [
+          "1606194702b9447d3c-2",
+          "1606194702b9447d3c-0",
+          "1606194702b9447d3c-1",
+          "517429ec-86a9-41a5-b71d-6453c1da20a0",
+          "88fe7301-234a-4d28-92b8-400a50ed2d77",
+          "a07cc694-2667-4297-920e-374b8739ea66",
+          "09adb3e5-f65c-4e51-8a5b-b25bc8967102",
+          "8f68bcdd-3d41-401d-bd15-eafe60209dd7"
+        ],
+        "settings": {
+          "title": "categories",
+          "grid": 3
+        }
+      },
+      "16061952033e3371b2": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "heavy-chevron-pave-diamond-wide-tennis-bracelet",
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_zoom": true,
+          "enable_payment_button": true,
+          "show_share_buttons": false
+        }
+      },
+      "160619536586ab41f1": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "160619536586ab41f1-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "160619536586ab41f1-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "160619536586ab41f1-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "160619536586ab41f1-0",
+          "160619536586ab41f1-1",
+          "160619536586ab41f1-2"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
+      },
+      "16061979258ad263c9": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Background_for_web_homepage_IMG_0059_c0db7c86-0f41-437a-baa4-08dfe59df96e.jpg",
+          "alignment": "top",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 6,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_zoom": true,
+          "enable_payment_button": true,
+          "show_share_buttons": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "1607050818fb912dd6": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1607050818e8f569c3-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_0494.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "1607050818e8f569c3-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The10_Jewelry_Earring_BG_removed_1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1607050818e8f569c3-0",
+          "1607050818e8f569c3-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "1607050896814aea52": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/The10_Jewelry_Earring_BG_removed_1.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": ""
+        }
+      },
+      "160705116369715147": {
+        "type": "image-bar",
+        "blocks": {
+          "16070511635b00dce0-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The10_Jewelry_Earring_BG_removed_5.png",
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "2d6ed4a8-74d6-4e25-a789-3d5e93abd93b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/60F98FB9-9544-4A04-B082-EEAE06403461.png",
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "16070511635b00dce0-1",
+          "2d6ed4a8-74d6-4e25-a789-3d5e93abd93b"
+        ],
+        "settings": {
+          "section_height": "x-large"
+        }
+      }
+    },
+    "content_for_index": [
+      "16061979258ad263c9",
+      "160705116369715147",
+      "1607050896814aea52",
+      "1606194702b9447d3c",
+      "16061952033e3371b2",
+      "1607050818fb912dd6",
+      "1600723224546",
+      "160619536586ab41f1",
+      "slideshow",
+      "hero",
+      "featured-collections",
+      "feature-row"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
