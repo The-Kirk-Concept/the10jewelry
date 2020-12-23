@@ -116,7 +116,7 @@
         <h1 class="product-single__title">{{ product.title }}</h1>
 
           {% for tag in product.tags %}
-            {% if tag contains 'custom-product' %}
+            {% if tag contains 'contact-only' %}
               {% assign customProduct = true%}
             {% endif %}
           {% endfor %}
@@ -133,16 +133,17 @@
               {% endif %}
             </div>
             <div class="product-single__description rte">
-              {{ product.description }}!!
+              {{ product.description }}
             </div>
-            <form>
-              <input type="text" placeholder="What do you need?"/>
-              <input type="text" placeholder="How soon would you like to wear this item?"/>
-            </form>
+            <div class="contact-only">
+              <p>To purchase this product please email us and be sure to be as detailed as possible within your request and we will reach out to you as soon as possible!</p>
+              <a href="mailto:Info@the10jewelry.com">Info@the10jewelry.com</a>
+            </div>
+            
           </div>
           
           {% else %}
-          
+           
           <div class="product__price">
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>

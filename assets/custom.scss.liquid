@@ -1,3 +1,65 @@
-.collection-grid-item__title-wrapper::before, .collection-hero__title-wrapper::before {
-    background-color: #aaa; 
+* {
+    transition: 0.3s;
+}
+.collection-grid {
+    overflow: initial;
+}
+.collection-grid-item {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.collection-grid-item__title-wrapper::before,
+.collection-hero__title-wrapper::before {
+    background-color: white; 
+}
+.collection-grid-item__title-wrapper:hover::before,
+.collection-hero__title-wrapper:hover::before {
+    background-color: transparent; 
+}
+.collection-grid-item__title-wrapper h3 {
+    line-height: 2;
+}
+.contact-only {
+    a {
+        color: goldenrod;
+        font-size: 30px;
+    }
+}
+.cart__agree-terms {
+    p {
+        float: none; 
+        text-align: right; 
+        clear: both; 
+        margin: 10px 0;
+        a {
+            color: #c1c1c1;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+    }
+    input {
+        float: none; 
+        vertical-align: middle
+    }
+    label {
+        display: inline; 
+        float: none
+    }
+    &.error {
+        background: #FFF0F0;
+        padding: 5px 20px;
+        margin-bottom: 10px;
+        display: inline-block;
+        border-radius: 5px;
+        border: red solid 1px;
+        p {
+            font-weight: bold;
+            a {
+                color: red;
+                &:hover {
+                    color: #c1c1c1;
+                }
+            }
+        }
+    }
 }

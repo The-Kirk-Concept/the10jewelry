@@ -7162,3 +7162,28 @@ if (document.readyState !== 'loading') {
     selectVariantByClickingImage._selectVariant(),
   );
 }
+
+// Check cart for checked terms and conditions
+$(document).ready(function() {
+  $('body').on('click', '[name="checkout"], [name="goto_pp"], [name="goto_gc"]', function() {
+    if ($('#agree').is(':checked')) {
+      $(this).submit();
+    }
+    else {
+      $('.cart__agree-terms').addClass('error');
+      alert("You must agree with the terms and conditions of sales to check out.");
+      return false;
+    }
+  });
+});
+
+// Check cart for checked terms and conditions
+$(document).ready(function() {
+  $('#agree').click( function() {
+    if ($('#agree').is(':checked')) {
+      $('.cart__agree-terms').removeClass('error');
+    } else {
+      $('.cart__agree-terms').addClass('error');
+    }
+  });
+});
