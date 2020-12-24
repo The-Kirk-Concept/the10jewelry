@@ -44,6 +44,9 @@
 
   <div class="h4 grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div>
 
+
+  {% unless product.tags contains 'contact-only'%}
   {% include 'product-price-listing', product: product, show_vendor: show_vendor %}
+  {% endunless %}
 
 </div>

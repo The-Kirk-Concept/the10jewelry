@@ -121,29 +121,19 @@
             {% endif %}
           {% endfor %}
 
-          {% if customProduct %}
+          {% if customProduct == true %}
           <div class="custom-product">
-            <div class="product__price">
-              {% if product.metafields.custom_fields["custom_product_price"] != blank %}
-                <div class="custom-field custom-field__custom-product-price custom-field__type--number">
-                  <div class="custom-field--value">
-                    {{ product.metafields.custom_fields["custom_product_price"] | money }}+
-                  </div>
-                </div>
-              {% endif %}
-            </div>
             <div class="product-single__description rte">
-              {{ product.description }}
+              {{ product.description }}hi
             </div>
             <div class="contact-only">
-              <p>To purchase this product please email us and be sure to be as detailed as possible within your request and we will reach out to you as soon as possible!</p>
-              <a href="mailto:Info@the10jewelry.com">Info@the10jewelry.com</a>
+              <p>For inquiries please email:</p>
+              <a href="mailto:Info@the10jewelry.com?subject={{ product.title }} Inquiry">Info@the10jewelry.com</a>
+              <!--TODO: Add subject to default email to say product name -->
             </div>
             
           </div>
-          
           {% else %}
-           
           <div class="product__price">
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
